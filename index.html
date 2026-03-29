@@ -48,7 +48,15 @@ import { getDatabase, ref, set, onValue,
   from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
  
 /* ── YOUR FIREBASE CONFIG ── */
-
+const firebaseConfig = {
+  apiKey:            "AIzaSyB-ZfJM9WDFIbT_umiyWQnti1co3EEkeZ4",
+  authDomain:        "tellchat-460e4.firebaseapp.com",
+  databaseURL:       "https://tellchat-460e4-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId:         "tellchat-460e4",
+  storageBucket:     "tellchat-460e4.firebasestorage.app",
+  messagingSenderId: "915368237040",
+  appId:             "1:915368237040:web:25a0468d2f8a556a1daf35"
+};
  
 const app  = initializeApp(firebaseConfig);
 const auth = getAuth(app);
